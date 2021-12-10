@@ -1,0 +1,202 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Racing Sans One';
+   font-weight: 500;
+   color:black;
+}
+
+p {  font-family: 'Ubuntu';  font-size: 1.5rem;  line-height: 1.2;  font-weight: 200;}
+
+.btn{
+  font-family: 'Racing Sans One';
+}
+
+/* TITLE HEAD */
+
+#title {
+  background-color: #161853;
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.container-fluid {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand{
+
+}
+
+.nav-item{
+  font-family: 'Racing Sans One';
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Racing Sans One';
+}
+
+
+/* Title Image */
+.title-image{
+  width: auto;
+  height: auto;
+}
+
+
+.maintitle{
+  color:white;
+  padding: 5%;
+  font-size: 4.5rem;
+  line-height: 1.2;
+}
+
+/* Library Button */
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.library-button{
+  margin: 1%;
+}
+
+/* Featured  */
+#features{
+  background-color: #FAEDF0;
+}
+
+.featurefilmstitle{
+  font-size: 4.5rem;
+  line-height: 1.2;
+  color: black;
+}
+
+.featured-pics{
+  max-width:100%;
+  padding-bottom: 5%;
+}
+
+.feature-film-btn{
+  margin-bottom: 2%;
+}
+
+/* TRAILER  */
+#Trailer{
+  background-color: #161853;
+}
+
+
+.featuredtrailertitle{
+  color: white;
+  font-size: 4.5rem;
+  line-height: 1.2;
+}
+
+.new-trailer{
+  padding: 2%;
+}
+
+.trailer-title{
+   font-size: 2.5rem;
+   line-height: 1.2;
+   font-weight: 400
+}
+
+.featured-trailer-breakdown{
+  padding: 4%
+
+}
+
+.Synopsis{
+  text-align: left;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.movieparagraph{
+  text-align: left;
+}
+
+/* ContactUs */
+#contactus{
+  background-color: #FAEDF0;
+  padding: 0% 12%;
+}
+
+.contactus-title{
+  font-size: 4.5rem;
+  line-height: 1.2;
+  color: black;
+}
+
+.contact-box{
+  padding: 4%;
+}
+
+.contactusinfo{
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 300;
+
+}
+
+/* PRESS  */
+
+#press{
+  background-color: #FAEDF0;
+  height: auto;
+  width: auto;
+}
+
+.market-logos{
+  height: 15rem;
+  width: 15rem;
+}
+
+/* FOOTER */
+
+#footer{
+  background-color: #EC255A;
+}
+
+
+@media (max-width: 700px) {
+  h1{
+    font-size: 3rem;
+  }
+  .maintitle{
+    font-size: 3rem;
+  }
+  .featurefilmstitle{
+    font-size: 3rem;
+  }
+
+  .featuredtrailertitle{
+    font-size: 3rem;
+  }
+
+  .contactus-title{
+    font-size: 3rem;
+  }
+
+  .Synopsis{
+    text-align: center;
+  }
+
+  .movieparagraph{
+    text-align: center;
+  }
+  #press{
+    display: none;
+  }

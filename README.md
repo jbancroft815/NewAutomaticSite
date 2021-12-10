@@ -1,1 +1,1 @@
-# NewAutomaticSite
+TinDog Starting Files
